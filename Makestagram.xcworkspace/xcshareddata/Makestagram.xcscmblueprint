@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8B0D56AB6923D36B4738913031E7F07EF815B0BA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8B0D56AB6923D36B4738913031E7F07EF815B0BA" : 9223372036854775807,
+    "5D1C49107FF6109DDA01425654649694C79B04B1" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DBB96733-D726-43AA-B7A7-F526954DB690",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8B0D56AB6923D36B4738913031E7F07EF815B0BA" : "Makestagram\/",
+    "5D1C49107FF6109DDA01425654649694C79B04B1" : "Makestagram\/Makestagram\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Makestagram",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Makestagram.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Skymeow\/instagramClone.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5D1C49107FF6109DDA01425654649694C79B04B1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Skymeow\/Makestagram.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B0D56AB6923D36B4738913031E7F07EF815B0BA"
+    }
+  ]
+}
