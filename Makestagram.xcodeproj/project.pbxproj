@@ -26,6 +26,7 @@
 		F9DCD78E1F1673960063734E /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCD78D1F1673960063734E /* PostImageCell.swift */; };
 		F9DCD7901F16889C0063734E /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCD78F1F16889C0063734E /* PostHeaderCell.swift */; };
 		F9DCD7921F1692130063734E /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCD7911F1692130063734E /* PostActionCell.swift */; };
+		F9DCD7941F17B2E80063734E /* LikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCD7931F17B2E80063734E /* LikeService.swift */; };
 		F9ECC2A71F155BD200451E27 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECC2A61F155BD200451E27 /* StorageService.swift */; };
 		F9ECC2A91F155EB100451E27 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECC2A81F155EB100451E27 /* PostService.swift */; };
 		F9ECC2AB1F15611000451E27 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECC2AA1F15611000451E27 /* Post.swift */; };
@@ -59,6 +60,7 @@
 		F9DCD78D1F1673960063734E /* PostImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
 		F9DCD78F1F16889C0063734E /* PostHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
 		F9DCD7911F1692130063734E /* PostActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostActionCell.swift; sourceTree = "<group>"; };
+		F9DCD7931F17B2E80063734E /* LikeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeService.swift; sourceTree = "<group>"; };
 		F9ECC2A61F155BD200451E27 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		F9ECC2A81F155EB100451E27 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		F9ECC2AA1F15611000451E27 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				F9882F691F154F7200CC80FE /* UserService.swift */,
 				F9ECC2A61F155BD200451E27 /* StorageService.swift */,
 				F9ECC2A81F155EB100451E27 /* PostService.swift */,
+				F9DCD7931F17B2E80063734E /* LikeService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				F9882F661F154F5400CC80FE /* MGPhotoHelper.swift in Sources */,
 				F9882F5C1F154E9200CC80FE /* FindFriendsViewController.swift in Sources */,
 				F9DCD7921F1692130063734E /* PostActionCell.swift in Sources */,
+				F9DCD7941F17B2E80063734E /* LikeService.swift in Sources */,
 				F9ECC2AB1F15611000451E27 /* Post.swift in Sources */,
 				F9DCD78E1F1673960063734E /* PostImageCell.swift in Sources */,
 				F9ECC2AD1F1569CD00451E27 /* UIImage+Size.swift in Sources */,
