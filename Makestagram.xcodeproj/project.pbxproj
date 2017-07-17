@@ -30,6 +30,7 @@
 		F9DCD7981F1918500063734E /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCD7971F1918500063734E /* FindFriendsViewController.swift */; };
 		F9DCD79B1F1919D50063734E /* FindFriends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9DCD7991F1919D50063734E /* FindFriends.storyboard */; };
 		F9DCD79D1F192FEF0063734E /* FindFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCD79C1F192FEF0063734E /* FindFriendsCell.swift */; };
+		F9DCD79F1F1D59AA0063734E /* DatabaseReference+Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCD79E1F1D59AA0063734E /* DatabaseReference+Location.swift */; };
 		F9ECC2A71F155BD200451E27 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECC2A61F155BD200451E27 /* StorageService.swift */; };
 		F9ECC2A91F155EB100451E27 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECC2A81F155EB100451E27 /* PostService.swift */; };
 		F9ECC2AB1F15611000451E27 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECC2AA1F15611000451E27 /* Post.swift */; };
@@ -67,6 +68,7 @@
 		F9DCD7971F1918500063734E /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
 		F9DCD79A1F1919D50063734E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FindFriends.storyboard; sourceTree = "<group>"; };
 		F9DCD79C1F192FEF0063734E /* FindFriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsCell.swift; sourceTree = "<group>"; };
+		F9DCD79E1F1D59AA0063734E /* DatabaseReference+Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DatabaseReference+Location.swift"; sourceTree = "<group>"; };
 		F9ECC2A61F155BD200451E27 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		F9ECC2A81F155EB100451E27 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		F9ECC2AA1F15611000451E27 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				F9882F491F140EEE00CC80FE /* Storyboard+Utility.swift */,
 				F9ECC2AC1F1569CD00451E27 /* UIImage+Size.swift */,
 				F9ECC2AE1F156C6700451E27 /* StorageReference+Post.swift */,
+				F9DCD79E1F1D59AA0063734E /* DatabaseReference+Location.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				F9882F5E1F154E9200CC80FE /* CreateUsernameViewController.swift in Sources */,
 				F9882F4A1F140EEE00CC80FE /* Storyboard+Utility.swift in Sources */,
 				F9882F681F154F6300CC80FE /* User.swift in Sources */,
+				F9DCD79F1F1D59AA0063734E /* DatabaseReference+Location.swift in Sources */,
 				F9ECC2B41F1655A500451E27 /* HomeViewController.swift in Sources */,
 				F9ECC2AF1F156C6700451E27 /* StorageReference+Post.swift in Sources */,
 				F9ECC2A91F155EB100451E27 /* PostService.swift in Sources */,
@@ -532,7 +536,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sky.Makestagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
